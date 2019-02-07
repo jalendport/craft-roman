@@ -2,7 +2,7 @@
     "name": "jalendport/craft-roman",
     "description": "Convert an integer into roman numerals and vice versa.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
@@ -23,7 +23,7 @@
     "authors": [
         {
             "name": "Jalen Davenport",
-            "homepage": "dominion-designs.com"
+            "homepage": "https://jalendport.com"
         }
     ],
     "require": {

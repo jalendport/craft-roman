@@ -12,11 +12,11 @@ _Convert an integer into roman numerals and vice versa._
 
 This plugin requires Craft CMS 3.0.0 or later.
 
-#### Plugin Store
+### Plugin Store
 
 Log into your control panel and click on 'Plugin Store'. Search for 'Roman'.
 
-#### Composer
+### Composer
 
 1. Open your terminal and go to your Craft project:
 
@@ -38,16 +38,16 @@ Roman provides several Twig methods for easy conversion between integers and rom
 
 - You can pass an integer (or a string) into the `getRoman()` method to get roman numerals:
 
-        {{ craft.roman.getRoman(298) }}     // Output: CCXCVIII
-        {{ craft.roman.getRoman('539') }}   // Output: DXXXIX
+      {{ craft.roman.getRoman(298) }}     // Output: CCXCVIII
+      {{ craft.roman.getRoman('539') }}   // Output: DXXXIX
 
 - You can pass a string (of roman numerals) into the `getNumber()` method to get an integer:
 
-        {{ craft.roman.getNumber('ML') }}   // Output: 1050
+      {{ craft.roman.getNumber('ML') }}   // Output: 1050
 
 - Roman also includes a helper attribute to quickly get the current year in roman numeral form:
 
-        {{ craft.roman.currentYear }}       // Output: MMXIX
+      {{ craft.roman.currentYear }}       // Output: MMXIX
 
 ## Found a Bug? Need Support?
 

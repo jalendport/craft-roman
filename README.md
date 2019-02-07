@@ -5,6 +5,8 @@
 
 _Convert an integer into roman numerals and vice versa._
 
+![Roman banner](resources/img/banner.png)
+
 &mdash; Based on the Craft 2 version of the [Roman](https://github.com/bransinanderson/Craft-Roman) plugin by [Bransin Anderson](https://bransinanderson.com)
 
 ## Installation

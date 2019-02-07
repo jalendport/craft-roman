@@ -1,6 +1,7 @@
 <img src="src/icon.svg" alt="icon" width="100" height="100">
 
 # Roman
+[![Craft CMS 3.0.0+](https://img.shields.io/badge/Craft%20CMS-3.0.0%2B-red.svg)](https://craftcms.com/) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jalendport/craft-roman/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jalendport/craft-roman/?branch=master)
 
 _Convert an integer into roman numerals and vice versa._
 

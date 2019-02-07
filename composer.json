@@ -1,0 +1,48 @@
+{
+    "name": "jalendport/craft-roman",
+    "description": "Convert an integer into roman numerals and vice versa.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "roman numerals",
+        "number",
+        "numbers",
+        "numeral",
+        "numerals",
+        "roman"
+    ],
+    "support": {
+        "docs": "https://github.com/jalendport/craft-roman/blob/master/README.md",
+        "issues": "https://github.com/jalendport/craft-roman/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jalen Davenport",
+            "homepage": "dominion-designs.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "jalendport\\roman\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Roman",
+        "handle": "roman",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/jalendport/craft-roman/master/CHANGELOG.md",
+        "components": {
+            "romanService": "jalendport\\roman\\services\\RomanService"
+        },
+        "class": "jalendport\\roman\\Roman"
+    }
+}

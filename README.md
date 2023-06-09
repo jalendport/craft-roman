@@ -1,6 +1,6 @@
 <h1><img src="src/icon.svg" alt="icon" width="25" height="25" hspace="5">Roman</h1>
 
-[![Craft CMS 3.0.0+](https://img.shields.io/badge/Craft%20CMS-3.0.0%2B-red.svg)](https://craftcms.com/) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jalendport/craft-roman/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jalendport/craft-roman/?branch=master)
+[![Craft CMS 3.0.0+](https://img.shields.io/badge/Craft%20CMS-3.0.0%2B-red.svg)](https://craftcms.com/) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jalendport/craft-roman/badges/quality-score.png?b=craft3)](https://scrutinizer-ci.com/g/jalendport/craft-roman/?branch=craft3)
 
 _Convert an integer into roman numerals and vice versa._
 

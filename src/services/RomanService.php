@@ -1,10 +1,10 @@
 <?php
 /**
- * Roman plugin for Craft CMS 3.x
+ * Roman plugin for Craft CMS 4.x
  *
  * Convert an integer into roman numerals and vice versa.
  *
- * @link      dominion-designs.com
+ * @link      https://jalendport.com
  * @copyright Copyright (c) 2019 Jalen Davenport
  */
 
@@ -21,16 +21,16 @@ use craft\base\Component;
  */
 class RomanService extends Component
 {
-	
+
 	/**
 	 * @var string
 	 */
-	private $result = '';
-	
+	private string $result = '';
+
 	/**
 	 * @var array
 	 */
-	public $romanNumerals = [
+	public array $romanNumerals = [
 		'M'  => 1000,
 		'CM' => 900,
 		'D'  => 500,
@@ -45,14 +45,14 @@ class RomanService extends Component
 		'IV' => 4,
 		'I'  => 1
 	];
-	
+
 	/**
 	 * @param null $number
-	 * @return string|null
+	 * @return string
 	 */
-	public function getRoman($number = null)
-    {
-		$this->result = null;
+	public function getRoman($number = null): string
+	{
+		$this->result = '';
 		foreach($this->romanNumerals as $key => $value)
 		{
 			$matches = (int)($number / $value);
@@ -61,17 +61,17 @@ class RomanService extends Component
 		}
 		return $this->result;
     }
-    
+
 	/**
 	 * @param null $roman
-	 * @return string|null
+	 * @return int
 	 */
-	public function getNumber($roman = null)
+	public function getNumber($roman = null): int
 	{
-		$this->result = null;
+		$this->result = 0;
 		foreach($this->romanNumerals as $key => $value)
 		{
-			while (strpos($roman, $key) === 0)
+			while (str_starts_with($roman, $key))
 			{
 				$this->result += $value;
 				$roman = substr($roman, strlen($key));
@@ -79,5 +79,5 @@ class RomanService extends Component
 		}
 		return $this->result;
 	}
-	
+
 }

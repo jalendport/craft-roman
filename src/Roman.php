@@ -1,21 +1,19 @@
 <?php
 /**
- * Roman plugin for Craft CMS 3.x
+ * Roman plugin for Craft CMS 4.x
  *
  * Convert an integer into roman numerals and vice versa.
  *
- * @link      dominion-designs.com
+ * @link      https://jalendport.com
  * @copyright Copyright (c) 2019 Jalen Davenport
  */
 
 namespace jalendport\roman;
 
-use jalendport\roman\services\RomanService;
-use jalendport\roman\variables\RomanVariable;
-
 use craft\base\Plugin;
 use craft\web\twig\variables\CraftVariable;
-
+use jalendport\roman\services\RomanService;
+use jalendport\roman\variables\RomanVariable;
 use yii\base\Event;
 
 /**
@@ -32,16 +30,16 @@ class Roman extends Plugin
     /**
      * @var Roman
      */
-    public static $plugin;
-    
+    public static Roman $plugin;
+
 	/**
 	 * Init method
 	 */
-	public function init()
-    {
+	public function init(): void
+	{
         parent::init();
         self::$plugin = $this;
-        
+
         Event::on(
             CraftVariable::class,
             CraftVariable::EVENT_INIT,

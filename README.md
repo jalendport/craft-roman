@@ -1,6 +1,6 @@
 <h1><img src="src/icon.svg" alt="icon" width="25" height="25" hspace="5">Roman</h1>
 
-[![Craft CMS 3.0.0+](https://img.shields.io/badge/Craft%20CMS-3.0.0%2B-red.svg)](https://craftcms.com/) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jalendport/craft-roman/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jalendport/craft-roman/?branch=master)
+[![Craft CMS 4.0.0+](https://img.shields.io/badge/Craft%20CMS-4.0.0%2B-red.svg)](https://craftcms.com/) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jalendport/craft-roman/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jalendport/craft-roman/?branch=master)
 
 _Convert an integer into roman numerals and vice versa._
 
@@ -12,7 +12,7 @@ _Convert an integer into roman numerals and vice versa._
 
 ### Requirements
 
-This plugin requires Craft CMS 3.0.0 or later.
+This plugin requires Craft CMS 4.0.0 or later.
 
 ### Plugin Store
 
@@ -49,7 +49,7 @@ Roman provides several Twig methods for easy conversion between integers and rom
 
 - Roman also includes a helper attribute to quickly get the current year in roman numeral form:
 
-      {{ craft.roman.currentYear }}       // Output: MMXIX
+      {{ craft.roman.currentYear }}       // Output: MMXXIII
 
 ## Found a Bug? Need Support?
 
@@ -67,6 +67,6 @@ If there's a feature you think should be added to Roman, please open an [issue](
 
 ### Contributors
 
- - Plugin development: [Jalen Davenport](dominion-designs.com) / @jalendport
+ - Plugin development: [Jalen Davenport](jalendport.com) / @jalendport
  - Craft 2 plugin development: [Bransin Anderson](https://github.com/bransinanderson/Craft-Roman)
  - Icon: [nawaf falah](https://thenounproject.com/search/?q=roman%20helmet&i=1784074), via [The Noun Project](https://thenounproject.com)

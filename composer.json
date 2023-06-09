@@ -2,7 +2,7 @@
     "name": "jalendport/craft-roman",
     "description": "Convert an integer into roman numerals and vice versa.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "keywords": [
         "craft",
         "cms",
@@ -27,7 +27,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms/cms": "^4.0.0"
     },
     "autoload": {
         "psr-4": {
